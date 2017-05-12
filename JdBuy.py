@@ -61,12 +61,9 @@ def start(url,username,pwd):
 if __name__=="__main__":
 
 	parser = argparse.ArgumentParser(description=u'京东抢购')
-	parser.add_argument('-u', '--username', 
-						help=u'登录用户名', default='')
-	parser.add_argument('-p', '--password', 
-						help=u'登录密码', default='')
-	parser.add_argument('-l', '--url', 
-						help=u'抢购链接地址', default='')
+	parser.add_argument('-u', '--username', help=u'登录用户名', default='')
+	parser.add_argument('-p', '--password', help=u'登录密码', default='')
+	parser.add_argument('-l', '--url', help=u'抢购链接地址', default='')
 
 	options = parser.parse_args()
 	print options
