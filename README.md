@@ -5,3 +5,7 @@
 使用方法：
 
 JdBuy.py -u username -p password -l buyurl
+
+-u 京东用户名
+-p 京东密码
+-l 购买京东商品的链接地址
